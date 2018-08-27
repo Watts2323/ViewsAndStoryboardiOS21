@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ViewsandStoryboard21.xcodeproj">
+      location = "self:viewsAndStoryboard.xcodeproj">
    </FileRef>
 </Workspace>
