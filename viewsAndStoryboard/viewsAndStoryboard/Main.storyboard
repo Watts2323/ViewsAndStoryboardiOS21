@@ -121,10 +121,10 @@
             </objects>
             <point key="canvasLocation" x="1668" y="69.715142428785612"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="kgM-CD-wPp">
             <objects>
-                <viewController id="XaO-OE-bpg" sceneMemberID="viewController">
+                <viewController id="XaO-OE-bpg" customClass="SignUpViewController" customModule="viewsAndStoryboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gJY-S3-egA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,15 +165,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RD6-QB-Ge6"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="EOu-hh-5dt" id="fnS-xo-Auf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIQ-qd-0l1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2428" y="69.715142428785612"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="yxQ-IH-fOa">
             <objects>
-                <viewController id="5cq-Hw-9hy" sceneMemberID="viewController">
+                <viewController id="5cq-Hw-9hy" customClass="WelcomeViewController" customModule="viewsAndStoryboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TZX-RZ-OfN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,6 +197,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OSb-IS-ZpS"/>
                     </view>
+                    <connections>
+                        <outlet property="welcomelabel" destination="Dnp-m4-pdW" id="WGf-h6-lXJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxT-3P-PQQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

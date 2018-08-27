@@ -15,6 +15,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpUi()
+        view.addVerticalGradientLayer(topColor: .green, bottomColor: .blue)
         
         //only gets called once. It initially loads the vc into memory.
         print("The view did load was called")

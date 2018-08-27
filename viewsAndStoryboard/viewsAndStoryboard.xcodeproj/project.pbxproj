@@ -14,6 +14,9 @@
 		1977CCDC21346A270098BB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1977CCDB21346A270098BB88 /* Main.storyboard */; };
 		1977CCDE213473930098BB88 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977CCDD213473930098BB88 /* FirstViewController.swift */; };
 		1977CCE02134776F0098BB88 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977CCDF2134776F0098BB88 /* GreenViewController.swift */; };
+		1977CCE221348B6C0098BB88 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977CCE121348B6C0098BB88 /* SignUpViewController.swift */; };
+		1977CCE421348F890098BB88 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977CCE321348F890098BB88 /* WelcomeViewController.swift */; };
+		1977CCE62134A0B90098BB88 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977CCE52134A0B90098BB88 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		1977CCDB21346A270098BB88 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1977CCDD213473930098BB88 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1977CCDF2134776F0098BB88 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		1977CCE121348B6C0098BB88 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1977CCE321348F890098BB88 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1977CCE52134A0B90098BB88 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,11 @@
 				1977CCC2213468A40098BB88 /* Assets.xcassets */,
 				1977CCC4213468A40098BB88 /* LaunchScreen.storyboard */,
 				1977CCDB21346A270098BB88 /* Main.storyboard */,
-				1977CCDF2134776F0098BB88 /* GreenViewController.swift */,
 				1977CCDD213473930098BB88 /* FirstViewController.swift */,
+				1977CCE121348B6C0098BB88 /* SignUpViewController.swift */,
+				1977CCE321348F890098BB88 /* WelcomeViewController.swift */,
+				1977CCDF2134776F0098BB88 /* GreenViewController.swift */,
+				1977CCE52134A0B90098BB88 /* Extensions.swift */,
 				1977CCC7213468A40098BB88 /* Info.plist */,
 			);
 			path = viewsAndStoryboard;
@@ -201,7 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1977CCE02134776F0098BB88 /* GreenViewController.swift in Sources */,
+				1977CCE62134A0B90098BB88 /* Extensions.swift in Sources */,
+				1977CCE421348F890098BB88 /* WelcomeViewController.swift in Sources */,
 				1977CCBC213468A30098BB88 /* AppDelegate.swift in Sources */,
+				1977CCE221348B6C0098BB88 /* SignUpViewController.swift in Sources */,
 				1977CCDE213473930098BB88 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
