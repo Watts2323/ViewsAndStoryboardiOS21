@@ -63,11 +63,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kK2-5L-2fQ">
-                                <rect key="frame" x="143" y="283" width="88" height="30"/>
+                                <rect key="frame" x="-47.5" y="283" width="469" height="30"/>
                                 <state key="normal" title="Tap To Disco"/>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="E5a-ah-Ckr">
-                                <rect key="frame" x="38" y="551" width="300" height="30"/>
+                                <rect key="frame" x="37.5" y="551" width="300" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbC-KT-v1E">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
@@ -104,12 +104,13 @@
                         <constraints>
                             <constraint firstItem="KAp-nC-6sm" firstAttribute="bottom" secondItem="E5a-ah-Ckr" secondAttribute="bottom" constant="86" id="96L-kX-G0R"/>
                             <constraint firstItem="E5a-ah-Ckr" firstAttribute="centerX" secondItem="iRm-0M-IhM" secondAttribute="centerX" id="9cf-UI-dpe"/>
-                            <constraint firstItem="E5a-ah-Ckr" firstAttribute="leading" secondItem="kK2-5L-2fQ" secondAttribute="trailing" constant="-193.5" id="ANh-Se-158"/>
                             <constraint firstItem="KAp-nC-6sm" firstAttribute="trailing" secondItem="b4b-Vd-YDH" secondAttribute="trailing" constant="150" id="Khu-JE-yu9"/>
                             <constraint firstItem="E5a-ah-Ckr" firstAttribute="width" secondItem="iRm-0M-IhM" secondAttribute="width" multiplier="0.8" id="MJ5-Vv-tOF"/>
                             <constraint firstItem="kK2-5L-2fQ" firstAttribute="centerX" secondItem="b4b-Vd-YDH" secondAttribute="centerX" id="Mbc-4q-G2k"/>
                             <constraint firstItem="b4b-Vd-YDH" firstAttribute="top" secondItem="KAp-nC-6sm" secondAttribute="top" constant="83" id="NU7-ys-gCB"/>
                             <constraint firstItem="kK2-5L-2fQ" firstAttribute="top" secondItem="iRm-0M-IhM" secondAttribute="top" constant="283" id="ZvV-z2-LiA"/>
+                            <constraint firstItem="kK2-5L-2fQ" firstAttribute="centerX" secondItem="iRm-0M-IhM" secondAttribute="centerX" id="dss-Hv-m5a"/>
+                            <constraint firstItem="KAp-nC-6sm" firstAttribute="width" secondItem="kK2-5L-2fQ" secondAttribute="width" multiplier="0.8" id="hQf-Qo-x5R"/>
                             <constraint firstItem="b4b-Vd-YDH" firstAttribute="centerX" secondItem="iRm-0M-IhM" secondAttribute="centerX" id="kf2-5z-cnL"/>
                             <constraint firstItem="b4b-Vd-YDH" firstAttribute="leading" secondItem="KAp-nC-6sm" secondAttribute="leading" constant="150" id="rKa-9B-Qo9"/>
                         </constraints>
@@ -188,7 +189,6 @@
                         <constraints>
                             <constraint firstItem="Dnp-m4-pdW" firstAttribute="centerX" secondItem="OSb-IS-ZpS" secondAttribute="centerX" id="51L-Wq-Br3"/>
                             <constraint firstItem="Dnp-m4-pdW" firstAttribute="centerX" secondItem="TZX-RZ-OfN" secondAttribute="centerX" id="Byt-br-t5t"/>
-                            <constraint firstItem="Dnp-m4-pdW" firstAttribute="centerY" secondItem="TZX-RZ-OfN" secondAttribute="centerY" id="lae-Li-08q"/>
                             <constraint firstItem="Dnp-m4-pdW" firstAttribute="width" secondItem="TZX-RZ-OfN" secondAttribute="width" multiplier="0.8" id="wMK-7h-fWv"/>
                             <constraint firstItem="Dnp-m4-pdW" firstAttribute="centerY" secondItem="OSb-IS-ZpS" secondAttribute="centerY" id="xvM-64-lE2"/>
                         </constraints>
@@ -221,7 +221,20 @@
                     <view key="view" contentMode="scaleToFill" id="RnY-7B-MU5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYr-DF-8Mc">
+                                <rect key="frame" x="43" y="60" width="48" height="30"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="CancelButtonTapped:" destination="luQ-Bo-Rvg" eventType="touchUpInside" id="34z-YM-D6w"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SYr-DF-8Mc" firstAttribute="top" secondItem="4Sz-cT-kBq" secondAttribute="top" constant="40" id="OVg-9h-xvl"/>
+                            <constraint firstItem="SYr-DF-8Mc" firstAttribute="leading" secondItem="4Sz-cT-kBq" secondAttribute="leading" constant="43" id="o2y-nb-GnM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4Sz-cT-kBq"/>
                     </view>
                 </viewController>
